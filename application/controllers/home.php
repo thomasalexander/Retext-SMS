@@ -16,17 +16,18 @@ class Home extends CI_Controller {
 	
 	public function index(){
 		
-		$this->template->add_css('stylesheet.css');
+		$this->template->add_css('/stylesheet.css');
 		$this->template->add_js('path_to_file_from_root');
 		
 		
 		//Passing date to view
-		$this->data['pheader']	=	'An RSC application';
+		$this->data['pheader']	=	'Project Retext';
 				
 		$this->template->write('title', 'Project Retext');
 		
 		$this->template->write_view('content', 'welcome', $this->data);
 		$this->template->render(); //Final step to load content on template
+		$this->load->helper('form');
 	}
 	
 	

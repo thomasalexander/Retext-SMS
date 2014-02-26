@@ -22,7 +22,7 @@
       text-shadow: 0 1px 1px #022;
       color: #222; 
       font: 50px 'LeagueGothicRegular';
-      text-align: left;
+      text-align: center;
       padding: 10px;
   }
 
@@ -37,6 +37,16 @@
     padding: 12px 10px 12px 10px;
   }
 
+  .form{
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;
+    font-size: 12px;
+    display: block;
+    padding: 12px 10px 12px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+  }
   #body{
     margin: 0 15px 0 15px;
   }
